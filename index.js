@@ -17,7 +17,7 @@ module.exports = (async () => {
     environmentName,
   } = argv;
 
-  const spinner = ora('Loading unicorns').start();
+  const spinner = ora(`Deploying ${label} to ${environmentName}`).start();
 
   AWS.config.update({
     accessKeyId,
