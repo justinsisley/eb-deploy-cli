@@ -3,8 +3,9 @@ const fs = require('fs');
 const path = require('path');
 const AWS = require('aws-sdk');
 const { argv } = require('yargs');
+const ora = require('ora');
 
-module.exports = async () => {
+module.exports = (async () => {
   const {
     source,
     label,
@@ -15,6 +16,8 @@ module.exports = async () => {
     applicationName,
     environmentName,
   } = argv;
+
+  const spinner = ora('Loading unicorns').start();
 
   AWS.config.update({
     accessKeyId,
@@ -85,4 +88,6 @@ module.exports = async () => {
   await uploadToS3();
   await createAppVersion();
   await updateEBEnv();
-};
+
+  spinner.succeed(`${label} deployed to ${environmentName}`);
+})();
