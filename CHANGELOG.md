@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.3
+
+- __refactor:__ Added readme [2688f0b]
+
+
 ## v1.0.2
 
 - __refactor:__ No longer loading unicorns [2b475d3]
