@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/release/justinsisley/eb-deploy-cli.svg?style=for-the-badge" alt="GitHub release" /> <img src="https://img.shields.io/circleci/project/github/justinsisley/eb-deploy-cli.svg?style=for-the-badge" alt="CircleCI" /> <img src="https://img.shields.io/github/license/justinsisley/eb-deploy-cli.svg?style=for-the-badge" alt="license" />
+  <img src="https://img.shields.io/github/release/justinsisley/eb-deploy-cli.svg?style=for-the-badge" alt="GitHub release" /> <img src="https://img.shields.io/github/license/justinsisley/eb-deploy-cli.svg?style=for-the-badge" alt="license" />
 </p>
 
 ---
