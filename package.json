@@ -1,6 +1,6 @@
 {
   "name": "eb-deploy-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A very simple AWS Elastic Beanstalk deployment CLI",
   "license": "MIT",
   "engines": {
